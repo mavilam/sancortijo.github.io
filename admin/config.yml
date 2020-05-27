@@ -17,3 +17,6 @@ collections:
       - {label: "permalink", name: "permalink", widget: "hidden", default: "/:title/"}
       - {label: "category", name: "category", widget: "hidden", default: "projects"}
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Logo", name: "logo", widget: "image"}
+      - {label: "Year", name: "year", widget: "string"}
