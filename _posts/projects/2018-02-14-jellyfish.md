@@ -3,13 +3,13 @@ layout: project
 permalink: /:title/
 category: projects
 
-
-title: "Jellyfish"
-description: "Medusa en el mar"
-url: ""
-logo: "/assets/images/projects/jellyfish/jellyfishlogo.jpg"
-materials: "Pintura acrílica"
-year: "2018"
+project:
+  title: "Jellyfish"
+  description: "Medusa en el mar"
+  url: ""
+  logo: "/assets/images/projects/jellyfish/jellyfishlogo.jpg"
+  materials: "Pintura acrílica"
+  year: "2018"
 
 images:
   - image:
