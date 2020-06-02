@@ -29,9 +29,5 @@ collections:
         name: "images"
         widget: "list"
         fields:
-          - label: Image
-            name: image
-            widget: object
-            fields:
-              - {label: "Logo", name: "url", widget: "image"}
-              - {label: "Description", name: "alt", widget: "string"}
+          - {label: "Logo", name: "url", widget: "image"}
+          - {label: "Description", name: "alt", widget: "string"}
