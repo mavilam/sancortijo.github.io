@@ -31,7 +31,7 @@ collections:
         fields:
           - label: Image
             name: image
-            widget: widget
+            widget: object
             fields:
               - {label: "Logo", name: "url", widget: "image"}
               - {label: "Description", name: "alt", widget: "string"}
