@@ -28,9 +28,15 @@ collections:
           - {label: "Logo", name: "logo", widget: "image"}
           - {label: "Materials", name: "materials", widget: "string"}
           - {label: "Year", name: "year", widget: "string"}
+      - label: "Prices"
+        name: "price"
+        widget: "list"
+        fields:
+          - {label: "Description amount", name: "amount", widget: "string"}
+          - {label: "Url (redbubble)", name: "url", widget: "string"}
       - label: "Images"
         name: "images"
         widget: "list"
         fields:
-          - {label: "Logo", name: "url", widget: "image"}
+          - {label: "Image", name: "url", widget: "image"}
           - {label: "Description", name: "alt", widget: "string"}
