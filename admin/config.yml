@@ -29,7 +29,7 @@ collections:
           - {label: "Materials", name: "materials", widget: "string"}
           - {label: "Year", name: "year", widget: "string"}
       - label: "Prices"
-        name: "price"
+        name: "prices"
         widget: "list"
         fields:
           - {label: "Description amount", name: "amount", widget: "string"}
